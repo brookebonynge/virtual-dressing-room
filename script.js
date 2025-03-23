@@ -1,3 +1,8 @@
+document.getElementById("portfolioBtn").addEventListener("click", function() {
+    window.open("https://www.brookebonynge.design/", "blank");
+});
+
+
 document.addEventListener("DOMContentLoaded", () => {
     const tops = [
       "images/top1.png", "images/top2.png", "images/top3.png", "images/top4.png",

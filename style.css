@@ -2,7 +2,7 @@ body {
     font-family: 'Gill Sans';
     text-align: center;
     background:#fffdef;
-    color: #d0a583;
+    color: #dec2ac;
     padding: 20px;
   }
   
@@ -10,16 +10,41 @@ body {
     font-size: 2.5rem;
     color: #ba4353;
     margin-bottom: 30px;
-    text-shadow: 2px 2px #d0a583;
   }
+
+  #portfolioBtn {
+    display: block;
+    left: 20px auto;
+    background:url(./images/B-DESIGNS.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 120px;
+    height: 60px; 
+    padding: 20px;
+    background-color: #422717;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    }
+
+    #portfolioBtn:hover {
+    background:url(./images/BDESIGNS-hover.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 40px;
+    background-color: #fffdef;
+    outline: 1px solid #422717;
+    }
   
   .closet {
-    background-color:#d0a583;
+    background-color:#dec2ac;
     border-radius: 15px;
     padding: 30px;
     max-width: 500px;
     margin: 0 auto;
-    box-shadow: 0 0 20px #d0a583;
+    box-shadow: 0 0 20px #422717;
   }
   
   .outfit-section {
@@ -34,25 +59,26 @@ body {
   }
   
   .selector img {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     object-fit: contain;
     border-radius: 8px;
   }
   
   .arrow {
-    background-color: #ad9f22;
-    color: #000;
+    background-color: #dec2ac;
+    color: #fffdef;
     font-weight: bold;
     font-size: 1.5rem;
-    border: 2px solid #902124;
+    border: 2px solid #dec2ac;
     border-radius: 8px;
     padding: 10px 15px;
     cursor: pointer;
+    
   }
   
   .arrow:hover {
-    background-color: #ba4353;
+    background-color: #dec2ac;
   }
 
   
@@ -60,12 +86,12 @@ body {
     margin-top: 25px;
     padding: 12px 25px;
     font-size: 1rem;
-    background-color: #ad9f22;
-    color: white;
+    background-color: #422717;
+    color: #fffdef;
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    box-shadow: 2px 2px #902124;
+    
   }
   
   #random-outfit:hover {
