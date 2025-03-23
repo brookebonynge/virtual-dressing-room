@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Closet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Virtual Closet</h1>
+
+  <div class="closet">
+    <!-- Top Selector -->
+    <div class="outfit-section">
+      <h2>Top</h2>
+      <div class="selector">
+        <button class="arrow left" data-type="top">⬅️</button>
+        <img id="top-display" src="" alt="Top Preview">
+        <button class="arrow right" data-type="top">➡️</button>
+      </div>
+    </div>
+
+    <!-- Bottom Selector -->
+    <div class="outfit-section">
+      <h2>Bottom</h2>
+      <div class="selector">
+        <button class="arrow left" data-type="bottom">⬅️</button>
+        <img id="bottom-display" src="" alt="Bottom Preview">
+        <button class="arrow right" data-type="bottom">➡️</button>
+      </div>
+    </div>
+
+    <!-- Dress Me Button -->
+    <button id="random-outfit">Dress Me</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
